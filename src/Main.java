@@ -4,12 +4,15 @@ public class Main {
 
         SmartKitchen kithcen = new SmartKitchen();
 
-        kithcen.getDishWasher().setHasWorkToDo(true);
-        kithcen.getIceBox().setHasWorkToDo(true);
-        kithcen.getBrewMaster().setHasWorkToDo(true);
+//        kithcen.getDishWasher().setHasWorkToDo(true);
+//        kithcen.getIceBox().setHasWorkToDo(true);
+//        kithcen.getBrewMaster().setHasWorkToDo(true);
+//
+//        kithcen.getDishWasher().doDishes();
+//        kithcen.getIceBox().orderFood();
+//        kithcen.getBrewMaster().brewCoffee();
 
-        kithcen.getDishWasher().doDishes();
-        kithcen.getIceBox().orderFood();
-        kithcen.getBrewMaster().brewCoffee();
+        kithcen.setKitchenState(true, false, true);
+        kithcen.doKitchenWork();
     }
 }
