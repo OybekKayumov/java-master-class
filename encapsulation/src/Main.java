@@ -22,7 +22,5 @@ public class Main {
         EnhancedPlayer tim = new EnhancedPlayer("Tim", 200, "Sword");
         System.out.println("Initial health is " + tim.healthRemaining() );
         //* Initial health is 100
-
-
     }
 }
