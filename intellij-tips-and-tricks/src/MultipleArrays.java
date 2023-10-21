@@ -22,9 +22,10 @@ public class MultipleArrays  {
         for (int i = 0; i < array2.length; i++) {
             var innerArray = array2[i];
             for (int j = 0; j < innerArray.length; j++) {
-                System.out.print(array2[i][j] + " ");
+                // System.out.print(array2[i][j] + " ");
+                array2[i][j] = (i * 10) + (j + 1);
             }
-            System.out.println();
+            //System.out.println();
         }
 
         System.out.println();
@@ -44,6 +45,7 @@ public class MultipleArrays  {
 
         System.out.println(Arrays.deepToString(array2));
         // [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+        // [[1, 2, 3, 4], [11, 12, 13, 14], [21, 22, 23, 24], [31, 32, 33, 34]]
 
     }
 }

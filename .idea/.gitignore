@@ -2,3 +2,6 @@
 /shelf/
 /workspace.xml
 /out
+
+.DS_Store
+.idea
