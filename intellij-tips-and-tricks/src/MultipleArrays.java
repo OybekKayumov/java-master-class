@@ -22,11 +22,28 @@ public class MultipleArrays  {
         for (int i = 0; i < array2.length; i++) {
             var innerArray = array2[i];
             for (int j = 0; j < innerArray.length; j++) {
-                System.out.println(array2[i][j] + " ");
+                System.out.print(array2[i][j] + " ");
             }
             System.out.println();
         }
 
+        System.out.println();
+
+        for (var outer : array2) {
+            for (var elem : outer) {
+                System.out.print(elem + " ");
+            }
+            System.out.println();
+        }
+//        0 0 0 0
+//        0 0 0 0
+//        0 0 0 0
+//        0 0 0 0
+
+        System.out.println();
+
+        System.out.println(Arrays.deepToString(array2));
+        // [[0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
 
     }
 }
